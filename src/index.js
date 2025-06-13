@@ -4,6 +4,10 @@ import attractionsRouter from "./routes/attractionRouter.js";
 import showRouter from "./routes/showRouter.js";
 import ticketRouter from "./routes/ticketRouter.js";
 import ticketOptionRouter from "./routes/ticketOptionRouter.js";
+import dotenv from "dotenv";
+
+
+dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
