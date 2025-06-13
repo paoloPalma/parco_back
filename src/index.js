@@ -32,4 +32,5 @@ app.use(ticketOptionRouter);
 // Avvio del server
 app.listen(PORT, () => {
   console.log(`Server in esecuzione sulla porta ${PORT}`);
+  console.log(`Database URL: ${process.env.DATABASE_URL}`);
 });
