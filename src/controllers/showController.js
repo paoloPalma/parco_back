@@ -1,6 +1,5 @@
-import { PrismaClient } from '@prisma/client';
+import prisma from "../prisma/prismaClient";
 
-const prisma = new PrismaClient();
 
 export const getAllShows = async (req, res) => {
   try {
